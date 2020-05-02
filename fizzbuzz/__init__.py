@@ -6,5 +6,5 @@ def fizzbuzz_convert(number):
         return 'Fizz'
     if number % 5 == 0:
         return 'Buzz'
-
+    return str(number)
 assert fizzbuzz_convert(3) == 'Fizz'
